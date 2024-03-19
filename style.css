@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Hanken Grotesk" , sans-serif;
 }
 
 
@@ -50,9 +51,115 @@ header {
     margin: 0 auto;
 }
 
+/* NAV */
 .container-nav {
     background-color: white;
     width: 1200px;
     margin: 0 auto;
     margin-bottom: 2px;
 }
+
+.button-nav {
+    display: inline-block;
+    padding: 5px;
+    
+   
+}
+
+.blue {
+    background-color:rgb(62, 181, 255);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    width: 80px;
+}
+
+.white {
+    background-color: white;
+    color: lightgray;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: lightgray;
+    box-sizing: border-box;
+    margin-left: 0;
+    
+} 
+
+/* FINE NAV */
+
+/* MAIN */
+/* UL */
+
+.button-ul {
+    display: inline-block;
+
+}
+
+.list {
+    list-style: none;
+}
+
+
+/* COLOR BUTTON */
+.editorial {
+    background-color:rgb(62, 181, 255);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    width: 60px;
+    font-size: 10px;
+}
+
+.goals {
+    background-color:rgba(137, 2, 205, 0.644);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    width: 60px;
+    font-size: 10px;
+}
+
+.recruting {
+    background-color:rgba(24, 151, 43, 0.663);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    width: 60px;
+    font-size: 10px;
+}
+
+.mobile {
+    background-color:rgba(255, 165, 21, 0.819);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    width: 60px;
+    font-size: 10px;
+}
+
+.website {
+    background-color:rgba(255, 31, 87, 0.663);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    width: 60px;
+    font-size: 10px;
+}
+
+.sales {
+    background-color:rgb(121, 207, 0);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    width: 60px;
+    font-size: 10px;
+}
+
+
